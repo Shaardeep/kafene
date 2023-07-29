@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafene</title>
+    <link rel="SHORTCUT ICON" href="./Assets/favIcon.ico" />
+    <link rel="stylesheet" href="mainStyle.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="./index.html">
+                <div class="logo">
+                    <img src="../Assets/logo.58169365.png" alt="">
+                    <p class="logo-text">Kafene</p>
+                </div>
+            </a>
+            <nav class="pages-links">
+                <a href="../orders.html">Orders</a>
+                <a href="../products.html">Products</a>
+                <a href="../users.html">Users</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="order-page">
+            <h1>Products</h1>
+            <div class="data">
+                <div class="filter">
+                    <h2>Filters</h2>
+                    <div class="data-filter">
+                        <p>Count: <span>11</span></p>
+                        <label for="new">
+                            <input type="checkbox" id="expired">
+                            Expired
+                        </label>
+                        <label for="new">
+                            <input type="checkbox" id="lowStock">
+                            Low Stock
+                        </label>
+
+                    </div>
+
+                </div>
+                <div class="data-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Product Name</th>
+                                <th>Product Brand</th>
+                                <th>Expiry Date</th>
+                                <th>Unit Price</th>
+                                <th>Stock</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                                <td class="secondry">${product.id}</td>
+                                <td>${product.medicineName}</td>
+                                <td class="secondry">${product.medicineBrand}</td>
+                                <td>${product.expiryDate}</td>
+                                <td class="secondry">${product.unitPrice}</td>
+                                <td class="secondry">${product.stock}</td>
+                            </tr> -->
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="products.js"></script>
+</body>
+
+</html>

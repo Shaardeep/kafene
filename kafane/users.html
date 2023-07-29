@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kafene</title>
+    <link rel="SHORTCUT ICON" href="./Assets/favIcon.ico" />
+    <script src="code.jquery.com_jquery-3.7.0.min.js"></script>
+    <link rel="stylesheet" href="mainStyle.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <a href="./index.html">
+                <div class="logo">
+                    <img src="../Assets/logo.58169365.png" alt="">
+                    <p class="logo-text">Kafene</p>
+                </div>
+            </a>
+            <nav class="pages-links">
+                <a href="../orders.html">Orders</a>
+                <a href="../products.html">Products</a>
+                <a href="../users.html">Users</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="ddd">
+            <h1>filter DAta</h1>
+        </div>
+        <div>
+            <label for="baloon"><input type="checkbox" id="baloon" value="baloon">Baloon</label>
+            <label for="moon"><input type="checkbox" id="moon" value="moon">Moon</label>
+            <label for="toon"><input type="checkbox" id="toon" value="toon">Toon</label>
+        </div>
+        <div class="data-filt">
+            <ul>
+                <li class="baloon" datafilter="baloon">Bloon</li>
+                <li class="baloon" datafilter="moon">Moon</li>
+                <li class="baloon" datafilter="toon">Toon</li>
+            </ul>
+        </div>
+
+    </main>
+    <script src="users.js"></script>
+
+
+</body>
+
+</html>
